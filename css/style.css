@@ -1,0 +1,191 @@
+/* =================================
+   สีหลักของเว็บไซต์
+================================= */
+
+:root {
+    --green: #bbd49a;
+    --cream: #f9f1db;
+    --blue: #4d80cc;
+    --gray: #737373;
+    --border-green: #8dac77;
+}
+
+body {
+    background-color: #fdfcf6;
+    background-image: url("../images/bg1.png");
+    background-position: top center;
+    background-repeat: repeat;
+    background-size: 1000px auto;
+}
+
+h1 {
+   
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+   font-size: 32px;
+  font-style: normal;
+}
+
+
+h2 {
+    
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h5 {
+    
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* =================================
+   Header
+================================= */
+
+.site-header {
+    background-color: #bbd49a;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =================================
+   Footer
+================================= */
+
+.site-footer {
+    background-color: #bbd49a;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767.98px) {
+
+    .site-footer h3 {
+        font-size: 18px !important;
+    }
+
+    .site-footer p {
+        font-size: 12px !important;
+    }
+
+    .site-footer .position-absolute.w-100 {
+        width: 70% !important;
+    }
+
+    
+}
+
+
+
+/* =================================
+   Section o.5
+================================= */
+
+@media (max-width: 575.98px) {
+
+    .flower-img {
+        width: 120% !important;
+        max-width: none;
+    }
+
+}
+.flowers-section {
+    position: relative;
+}
+
+.flowers-section::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #bbd49a;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.flowers-section .row {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* =================================
+   กล่องหัวข้อ
+================================= */
+
+.section-title {
+    background-color: #f9f1db;
+}
+
+.point-title {
+    background-color: #f9f1db;
+    border: 2px solid #8dac77;
+    position: relative;
+}
+
+/* =================================
+   ตัวหนังสือสีน้ำเงิน
+================================= */
+
+.main-blue {
+    color: #4d80cc;
+}
+
+
+/* =================================
+   ตัวหนังสือสีเทา
+================================= */
+
+.main-gray {
+    color: #737373;
+}
+
+
+/* =================================
+   Section 1
+   กรอบเส้นประ
+================================= */
+
+.summary-box {
+    border: 2px dashed #8dac77;
+    background-color: #ffffff;
+}
+
+
+/* =================================
+   Section 3
+   กรอบเส้นประ
+================================= */
+
+.reason-box {
+    border: 2px dashed #8dac77;
+    background-color: #ffffff;
+}
+
+/* ทำให้ border-dashed เป็นเส้นประ */
+.border-dashed {
+    border-style: dashed !important;
+}
+
+.green-box {
+    border-color: #8dac77 !important;
+    border-style: solid;
+}
+
+
+.green-line {
+    border: 0;
+    border-top: 2px solid #8dac77;
+}
+
