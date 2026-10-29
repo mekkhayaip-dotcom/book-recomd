@@ -91,12 +91,10 @@ h5 {
 ================================= */
 
 @media (max-width: 575.98px) {
-
     .flower-img {
-        width: 120% !important;
-        max-width: none;
+        width: 100%;
+        max-width: 100%;
     }
-
 }
 .flowers-section {
     position: relative;
@@ -189,3 +187,39 @@ h5 {
     border-top: 2px solid #8dac77;
 }
 
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.site-header {
+    width: 100%;
+}
+
+.site-footer {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: clip;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
