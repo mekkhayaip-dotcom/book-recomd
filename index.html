@@ -32,66 +32,63 @@
          HEADER
     ====================================================== -->
 
-    <header class="site-header">
+ 
+<header class="site-header">
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid px-3 px-md-5">
 
-        <div class="container">
+            <!-- โลโก้และชื่อเว็บไซต์ -->
+            <a class="navbar-brand d-flex align-items-center gap-3"
+               href="#">
+                <img src="images/icon1.png"
+                     alt="โลโก้"
+                     style="width: 70px;">
 
-            <div class="row align-items-center py-2">
+                <span class="text-secondary fw-bold">
+                    pชวนอ่าน
+                </span>
+            </a>
 
-                <!-- Logo -->
-                <div class="col-2 col-md-1">
+            <!-- ปุ่มสามขีด แสดงบนจอเล็กกว่า MD -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="เปิดเมนู">
 
-                    <img
-                        src="images/icon1.png"
-                        alt="Logo"
-                        class="img-fluid"
-                        style="width: 100px;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                </div>
+            <!-- เมนู -->
+            <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+    <ul class="navbar-nav align-items-end gap-1">
 
+                  <li class="nav-item">
+    <a class="nav-link fw-bold text-secondary text-end" href="#home">
+        หน้าแรก
+    </a>
+</li>
 
-                <!-- ชวนอ่าน -->
-                <div class="col-4 col-md-3">
+<li class="nav-item">
+    <a class="nav-link fw-bold text-secondary text-end" href="#book">
+        แนะนำหนังสือ
+    </a>
+</li>
 
-                    <span class="text-secondary fs-5 fw-bold">
-                        pชวนอ่าน
-                    </span>
-
-                </div>
-
-
-                <!-- Menu -->
-                <div class="col-6 col-md-8">
-
-                    <nav class="d-flex justify-content-end gap-4">
-
-                        <a
-                            href="#home"
-                            class="text-secondary text-decoration-none fs-6 fw-bold">
-                            หน้าแรก
-                        </a>
-
-                        <a
-                            href="#summary"
-                            class="text-secondary text-decoration-none fs-6 fw-bold">
-                            แนะนำหนังสือ
-                        </a>
-
-                        <a
-                            href="#footer"
-                            class="text-secondary text-decoration-none fs-6 fw-bold">
-                            เกี่ยวกับเรา
-                        </a>
-
-                    </nav>
-
-                </div>
-
+<li class="nav-item">
+    <a class="nav-link fw-bold text-secondary text-end" href="#footer">
+        เกี่ยวกับเรา
+    </a>
+</li>
+                </ul>
             </div>
 
         </div>
+    </nav>
+</header>
 
-    </header>
 
 
 
